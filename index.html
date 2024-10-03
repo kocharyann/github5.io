@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kocharyann</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="m-0">
+
+<header class="container-fluid ">
+  <div class="row row-cols-1 row-cols-md-2 justify-content-center justify-content-md-between">
+    <div class="logo-container m-0 p-0 col-md-auto d-flex align-items-center justify-content-center ">
+      <img class="picture-logo" src="image5.jpg" alt="логотип" /> 
+      <h5 class="title m-1 text-center align-content-center">ДЗ ПО ВЕБУ by kocharyan polina</h5>
+    </div>
+    <nav class="mt-1 mt-md-0 col-auto d-flex flex-column flex-md-row align-items-center">
+      <a class="ms-1 p-1" href="#hyperlinks">Ссылки</a>
+      <a class="ms-1 p-1" href="#table">Таблица</a>
+      <a class="ms-1 p-1" href="#forma">Форма</a>
+    </nav>
+  </div>
+
+</header>
+
+<div class="d-flex flex-column align-items-center">
+<table class="collapsed my-2 order-0 order-md-1" id="table">
+  <tr>
+    <th>Напитки</th>
+    <th>Десерты</th>
+    <th>Фрукты</th>
+    <th>Еда</th>
+  </tr>
+  <tr>
+    <td colspan="2">Милкшейк</td>
+    <td>Персик</td>
+    <td>Долма</td>
+  </tr>
+  <tr>
+    <td>Айс латте</td>
+    <td>Фондан</td>
+    <td>Вишня</td>
+    <td>Хинкали</td>
+  </tr>
+  <tr>
+    <td>Чай</td>
+    <td>Круассан</td>
+    <td>Инжир</td>
+    <td>Стейк</td>
+  </tr>
+  <tr>
+    <td>Лимонад</td>
+    <td>Макаронс</td>
+    <td>Арбуз</td>
+    <td>Салат</td>
+  </tr>
+  <tr>
+    <td>Смузи</td>
+    <td>Чизкейк</td>
+    <td>Виноград</td>
+    <td>Хот-дог</td>
+  </tr>
+  <tr>
+    <td>Раф</td>
+    <td>Пахлава</td>
+    <td>Лимон</td>
+    <td>Онигири</td>
+  </tr>
+</table>
+
+  <ul id="hyperlinks" class="content ps-2 my-2 order-1 order-md-0">
+    <li><a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li> 
+    <li><a href="https://www.ysl.com/en-us">Абсолютная гиперссылка на сайт бренда YSL в протоколе https</a></li> 
+    <li><a href="https://cdn1.ozone.ru/s3/multimedia-q/6762754286.jpg"><img src="https://cdn1.ozone.ru/s3/multimedia-q/6762754286.jpg" height="250" width="250" alt="Ссылка-изображение"></a></li> 
+    <li><a href="/inside">Сокращенная ссылка на внутреннюю страницу</a></li> 
+    <li><a href="/">Сокращенная ссылка на главную страницу</a></li> 
+    <li><a href="#selection1">Ссылка на фрагмент текущей страницы</a></li> 
+    <li><a href="https://ru.wikipedia.org/wiki/Мода_1920-х_годов#Платья?m1=a1&m2=a2&m3=a3">Мода 1920-х годов(cсылка с тремя параметрами в URL)</a></li> 
+    <li><a href="https://siriusmag.ru/articles/1346-zenskaa-krasota/?id=city">Идеал красоты в различные эпохи(ссылка с параметром id)</a></li>
+    <li><a href="./lalal">Относительная ссылка на страницу в текущем каталоге</a></li> 
+    <li><a href="./about/cosmos">Относительная ссылка на страницу в каталоге about</a></li> 
+    <li><a href="../star">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li> 
+    <li><a href="../../lofa">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li> 
+    <li><p>Это <a href="https://ru.wikipedia.org/wiki/Мода">статья о моде</a>(контекстная ссылка в тексте абзаца)</p></li>
+    <li><a href="https://www.wildberries.ru/catalog/222220418/detail.aspx#fragment">Сумка Hermes с вб(ссылка на фрагмент страницы стороннего сайта)</a></li>
+    <li>
+      <img src="imageforveb.JPEG" usemap="#map" alt="Bag and Shoes" width="300" height="200">
+      <map name="map">
+          <area shape="rect" coords="220,20,270,160" alt="туфли" href="https://www.wildberries.ru/catalog/238229374/detail.aspx">
+          <area shape="circle" coords="110,85,40" alt="сумка" href="https://www.wildberries.ru/catalog/232111380/detail.aspx">
+      </map>
+  </li> 
+   <li><a href="">Ссылка с пустым href</a></li> 
+   <li><a>Ссылка без href</a></li> 
+   <li><a href="https://privorot-gadalka.ru/?yclid=16280251729991172095" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li> 
+   <li><noindex><a href="https://www.roblox.com/?ysclid=m1126no5kh879604123">Запрещенная для индексации поисковиками</a></noindex></li> 
+<li>
+    <ol>
+      <li><a href="https://www.miumiu.com/ww/en.html?ysclid=m1b0e8dr22647793470" title="Бренд">Бренд MiuMiu</a></li> 
+      <li><a href="https://jacquemus.juun.ru/women/63_сумки?yclid=10441858976185581567" title="Бренд">Бренд Jacquemus</a></li> 
+      <li><a href="https://row.jimmychoo.com/en/home" title="Бренд">Бренд Jimmy Choo</a></li> 
+   </ol>
+  </li>
+  <li><a href="ftp://polina:123@https://vk.com/?ysclid=m112mr56ot896249699/info.txt">Ссылка на файл на сервере FTP с авторизацией</a></li> 
+</ul>
+
+<form class="content py-1 px-3 my-2 order-2 d-flex flex-column align-items-center" id="forma" action="form.php" method="post">
+  <label for="firstname">ФИО:</label>
+  <input type="text" id="firstname" name="firstname" ><br>
+
+  <label for="phone">Телефон:</label>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="birthdate">Дата рождения:</label>
+  <input type="date" id="birthdate" name="birthdate"><br>
+
+  <label>Пол:</label>
+  <input type="radio" id="male" name="gender" value="male" checked>
+  <label for="male">Мужской</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Женский</label><br>
+
+  <label for="programming-languages">Любимый язык программирования:</label>
+  <select id="programming-languages" name="programming-languages[]" multiple>
+    <option value="Pascal">Pascal</option>
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="PHP">PHP</option>
+    <option value="Python">Python</option>
+    <option value="Java">Java</option>
+    <option value="Haskell">Haskell</option>
+  </select><br>
+  <label for="biography">Биография:</label><br>
+  <textarea id="biography" name="biography"></textarea><br>
+  <input type="checkbox" id="contract" name="contract" required>
+  <label for="contract">С контрактом ознакомлен(а)</label><br>
+  <label class="d-flex justify-content-center"><input type="submit" value="Сохранить"></label>
+</form>
+</div>
+<footer class="mt-2 d-flex container-fluid text-center justify-content-center justify-content-md-start">
+  <p class="my-2">MADE BY POLINA KOCHARYAN;))</p>
+</footer>
+
+</body>
+</html>
